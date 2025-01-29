@@ -1,4 +1,4 @@
-// Set the date that I wanna count down to
+// Set the date that I want to count down to
 const countdownDate = new Date("June 20, 2025 00:00:00").getTime();
 
 // Update the countdown every second
@@ -24,6 +24,6 @@ const countdown = setInterval(() => {
   // If the countdown is over, display a message
   if (timeRemaining < 0) {
     clearInterval(countdown);
-    document.getElementById("countdown").innerHTML = "The countdown is over!";
+    document.getElementById("countdown").innerHTML = "slep can now appeal!";
   }
 }, 1000);
