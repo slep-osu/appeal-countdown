@@ -7,10 +7,26 @@ body {
   margin: 0;
   background-color: #282c34;
   color: white;
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(40, 44, 52, 0.7);
+  z-index: -1;
 }
 
 .countdown-container {
   text-align: center;
+  z-index: 1;
 }
 
 h1 {
